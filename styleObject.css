@@ -1,0 +1,39 @@
+.image {
+    height: 250px;
+    width: 250px;
+    border: 1px solid silver;
+    box-shadow: 0 0 0px silver;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+}
+
+.block {
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 150px;
+}
+.button {
+    position: absolute;
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.button:hover {
+    left: 0;
+    translate: inherit;
+}
+
+#back {
+    top: 20px;
+    background-color: #4CAF50;
+}

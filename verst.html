@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div style="flex-direction: column;">
+        <div class=".d-flex row">
+            <div class="block" style="justify-content: flex-end; align-items: flex-end; display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-cat"></i>
+            </div>
+            <div class="block" style="justify-content: center; align-items: flex-end; display: flex; flex-direction: column;">
+                <i class="imageBlock mb-3 fas fa-2x fa-dog"></i>
+                <i class="imageBlock mt-3 fas fa-2x fa-kiwi-bird"></i>
+            </div>
+            <div class="block" style="justify-content: center; align-items: flex-start; display: flex; flex-direction: column;">
+                <i class="imageBlock mb-4 fas fa-2x fa-cat"></i>
+                <i class="imageBlock mt-4 fas fa-2x fa-kiwi-bird"></i>
+            </div>
+            <div class="block" style="justify-content: end; align-items: flex-start; display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-dog"></i>
+                <i class="imageBlock fas fa-2x fa-cat"></i>
+            </div>
+        </div>
+
+
+        <div class=".d-flex row">
+            <div class="block" style="justify-content: center; align-items: flex-end; display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-dog"></i>
+                <i class="imageBlock fas fa-2x fa-kiwi-bird"></i>
+                <i class="imageBlock fas fa-2x fa-cat"></i>
+            </div>
+            <div class="block" style="justify-content: center; align-items: center; display: flex; flex-direction: column; width: 448px">
+                <i class="imageBlock fas fa-2x fa-dog"></i>
+                <i class="imageBlock fas fa-2x fa-cat"></i>
+            </div>
+            <div class="block">
+                <i class="imageBlock fas fa-2x fa-dog"></i>
+            </div>
+        </div>
+
+
+        <div class=".d-flex row">
+            <div class="block" style="justify-content: flex-start; align-items: flex-end; display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-dog"></i>
+            </div>
+            <div class="block" style="display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-dog"></i>
+                <i class="imageBlock fas fa-2x fa-cat"></i>
+            </div>
+            <div class="block" style="justify-content: space-between; display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-dog" style="height: 100%;"></i>
+                <i class="imageBlock fas fa-2x fa-kiwi-bird" style="height: 100%;"></i>
+                <i class="imageBlock fas fa-2x fa-cat" style="height: 100%;"></i>
+            </div>
+            <div class="block" style="justify-content: space-around; display: flex; flex-direction: column;">
+                <i class="imageBlock fas fa-2x fa-cat"></i>
+                <i class="imageBlock fas fa-2x fa-kiwi-bird"></i>
+            </div>
+        </div>
+        <a id="back" href="index.html">Вернуться</a>
+    </div>
+
+    <style>
+        .row {
+            margin-left: 15px;
+            align-items: stretch;
+        }
+
+        .block {
+            margin: 0.5em;
+            padding: 0.5em;
+            background: yellow;
+            flex-direction: column;
+            width: 216px;
+            height: 216px;
+        }
+
+        .imageBlock {
+            border: 1px solid black;
+            margin: 0.1em;
+            padding: 0.2em;
+            background: yellow;
+        }
+    </style>
+
+</body>
+
+</html>
